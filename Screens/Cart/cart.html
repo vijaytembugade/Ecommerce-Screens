@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart Page</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://xenon-designs.netlify.app/Components/main.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./cart.css" />
+  </head>
+  <body>
+    <nav class="text-dark">
+      <!-- nav brand  -->
+      <div class="nav-brand">
+        <img src="../../Xenon.svg" alt="Xenon" />
+      </div>
+      <!-- nav-item on right side  -->
+      <a href="" class="nav-item"> Login </a>
+      <a href="" class="nav-item">Sign up</a>
+      <a href="" class="nav-item">
+        <span class="material-icons"> favorite </span>
+        <span class="badge badge-round secondary-bg-color">5</span>
+      </a>
+      <a href="" class="nav-item">
+        <span class="material-icons"> shopping_cart </span>
+        <span class="badge badge-round secondary-bg-color">0</span>
+      </a>
+
+      <div id="hamburger" class="hamburger">
+        <span class="material-icons md-36"> menu </span>
+      </div>
+
+      <div class="responsive-navbar">
+        <div id="closeNavbar" class="danger-text">
+          <span class="material-icons md-36"> close </span>
+          Close
+        </div>
+        <a href="" class="nav-item"> Login </a>
+        <a href="" class="nav-item">Sign Up</a>
+        <a href="" class="nav-item">
+          <span class="material-icons"> shopping_cart </span>
+          <span class="badge badge-round secondary-bg-color">0</span>
+        </a>
+        <a href="" class="nav-item">
+          <span class="material-icons"> shopping_cart </span>
+          <span class="badge badge-round secondary-bg-color">0</span>
+        </a>
+      </div>
+    </nav>
+
+    <div class="cart-container">
+      <div class="cart-list">
+          <span class="title title-lg" >
+              My cart
+          </span>
+          <div class="cart-item">
+            <div>
+                <img class="responsive-img" src="../../assets/notebook-with-pensil.jpg" alt="">
+            </div>
+            <div>
+                <span class="title">TRU RED Solid Notebook</span>
+                <span>Price : <strong> 	&#8377; 1999 </strong></span> <del> &#8377; 3600</del> 
+                <p class="">Quantity: 2 </p>
+            </div>
+            <div class="cart-actions">
+                <button class="btn btn-danger-outline btn-float">
+                    <i class="material-icons">delete</i>
+                </button>
+                <button class="btn btn-primary-outline btn-float">
+                    <i class="material-icons">favorite</i>
+                </button>
+            </div>
+          </div>
+
+          <div class="cart-item ">
+            <div>
+                <img class="responsive-img" src="../../assets/notebook-with-pensil.jpg" alt="">
+            </div>
+            <div>
+                <span class="title">TRU RED Solid Notebook</span>
+                <span>Price : <strong> 	&#8377; 1999 </strong></span> <del> &#8377; 3600</del> 
+                <p class="">Quantity: 2 </>
+            </div>
+            <div class="cart-actions">
+                <button class="btn btn-danger-outline btn-float">
+                    <i class="material-icons">delete</i>
+                </button>
+                <button class="btn btn-primary-outline btn-float">
+                    <i class="material-icons">favorite</i>
+                </button>
+            </div>
+          </div>
+          <div class="cart-item ">
+            <div>
+                <img class="responsive-img" src="../../assets/notebook-with-pensil.jpg" alt="">
+            </div>
+            <div>
+                <span class="title">TRU RED Solid Notebook</span>
+                <span>Price : <strong> 	&#8377; 1999 </strong></span> <del> &#8377; 3600</del> 
+                <p class="">Quantity: 2 </>
+            </div>
+            <div class="cart-actions">
+                <button class="btn btn-danger-outline btn-float">
+                    <i class="material-icons">delete</i>
+                </button>
+                <button class="btn btn-primary-outline btn-float">
+                    <i class="material-icons">favorite</i>
+                </button>
+            </div>
+          </div>
+          <div class="cart-item">
+            <div>
+                <img class="responsive-img" src="../../assets/notebook-with-pensil.jpg" alt="">
+            </div>
+            <div>
+                <span class="title">TRU RED Solid Notebook</span>
+                <span>Price : <strong> 	&#8377; 1999 </strong></span> <del> &#8377; 3600</del> 
+                <p class="">Quantity: 2 </>
+            </div>
+            <div class="cart-actions">
+                <button class="btn btn-danger-outline btn-float">
+                    <i class="material-icons">delete</i>
+                </button>
+                <button class="btn btn-primary-outline btn-float">
+                    <i class="material-icons">favorite</i>
+                </button>
+            </div>
+          </div>
+      </div>
+      <div class="order-details">
+        <form class="form-group">
+          <h2>Order details</h2>
+          <div class="price-details">
+            <div>Price (2 items)</div>
+            <div>Rs. 1999</div>
+          </div>
+          <div class="price-details">
+            <div>Discount</div>
+            <div>Rs. 299</div>
+          </div>
+          <div class="price-details">
+            <div>Delivery Charges</div>
+            <div>Rs.199</div>
+          </div>
+          <div class="price-details">
+            <div><strong>TOTAL CHARGES</strong></div>
+            <div><strong>Rs. 1899</strong></div>
+          </div>
+          <button class="btn btn-large btn-secondary">Place Order</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
