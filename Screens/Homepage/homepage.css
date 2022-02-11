@@ -38,6 +38,13 @@
   text-align: center;
 }
 
+.arrivals-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 .arrivals {
   display: flex;
   width: 20rem;
@@ -60,12 +67,7 @@
   height: 7rem;
 }
 
-.arrivals-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .best-products {
   margin: 4rem;
