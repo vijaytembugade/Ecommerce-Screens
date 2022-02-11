@@ -1,0 +1,137 @@
+.carousel {
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+.carousel > img {
+  height: 500px;
+  object-fit: cover;
+}
+
+.carousel .corousel-text {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.offer-text {
+  text-align: center;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.introduction-text {
+  width: 40%;
+  text-align: center;
+  padding: 1rem;
+}
+
+.introduction-heading {
+  padding: 1rem;
+  border-bottom: 1px solid var(--gray-color);
+  text-align: center;
+}
+
+.arrivals-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrivals {
+  display: flex;
+  width: 20rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+  gap: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.5s;
+  box-sizing: border-box;
+  border-radius: 1rem;
+  background-color: var(--classic-color);
+  margin: 1rem;
+}
+
+.arrivals > img {
+  width: 7rem;
+  height: 7rem;
+}
+
+
+
+.best-products {
+  margin: 4rem;
+}
+
+.best-products > .best-product-list {
+  margin: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.brands{
+  display: flex;
+  margin: 4rem;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.brands > .featured-brand {
+  font-size: 32px;
+  padding: 2rem;
+}
+.brands > .brand-logos{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.brand-logos > div {
+  width: 150px;
+  transition: all 0.5s;
+}
+.brand-logos > div:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  cursor: pointer;
+}
+
+/* footer */
+footer{
+  width: 100%;
+  height: 10rem;
+}
+
+.footer{
+  display: flex;
+  justify-content: flex-start;
+  align-items:center;
+  flex-direction: column;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .carousel .corousel-text {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .introduction-text {
+    width: 80%;
+  }
+}
