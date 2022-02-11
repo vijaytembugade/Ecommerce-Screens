@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xenon-Stationary</title>
+    <link rel="shortcut icon" href="../../Xe-logo.png" type="image/x-icons" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://xenon-designs.netlify.app/Components/main.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./filter.css" />
+  </head>
+  <body>
+    <nav class="text-dark">
+      <!-- nav brand  -->
+      <div class="nav-brand">
+        <img src="../../Xenon.svg" alt="Xenon" />
+      </div>
+      <!-- nav-item on right side  -->
+      <a href="" class="nav-item"> Login </a>
+      <a href="" class="nav-item">Sign up</a>
+      <a href="" class="nav-item">
+        <span class="material-icons"> favorite </span>
+        <span class="badge badge-round secondary-bg-color">5</span>
+      </a>
+      <a href="" class="nav-item">
+        <span class="material-icons"> shopping_cart </span>
+        <span class="badge badge-round secondary-bg-color">0</span>
+      </a>
+
+      <div id="hamburger" class="hamburger">
+        <span class="material-icons md-36"> menu </span>
+      </div>
+
+      <div class="responsive-navbar">
+        <div id="closeNavbar" class="danger-text">
+          <span class="material-icons md-36"> close </span>
+          Close
+        </div>
+        <a href="" class="nav-item"> Login </a>
+
+        <a href="" class="nav-item">Sign Up</a>
+
+        <a href="" class="nav-item">
+          <span class="material-icons"> shopping_cart </span>
+          <span class="badge badge-round secondary-bg-color">0</span>
+        </a>
+        <a href="" class="nav-item">
+          <span class="material-icons"> shopping_cart </span>
+          <span class="badge badge-round secondary-bg-color">0</span>
+        </a>
+      </div>
+    </nav>
+
+    <div class="container">
+      <!-- filter container -->
+      <div class="filter-container">
+        <!-- price-container -->
+        <div class="price-filter">
+          <h3>Price</h3>
+          <input class="slider" type="range" min="1" max="100" value="50" />
+        </div>
+
+        <div class="category-container">
+          <h3>Categories</h3>
+          <label>
+            <input checked type="checkbox" />
+            <span class="input-label"> Diaries </span>
+          </label>
+          <label>
+            <input checked type="checkbox" />
+            <span class="input-label"> Notebooks </span>
+          </label>
+          <label>
+            <input checked type="checkbox" />
+            <span class="input-label"> Business </span>
+          </label>
+          <label>
+            <input checked type="checkbox" />
+            <span class="input-label"> Students </span>
+          </label>
+        </div>
+
+        <div class="rating-container">
+          <h3>Rating</h3>
+          <label>
+            <input type="radio" name="radio-button" />
+            4 start & above
+          </label>
+          <label>
+            <input type="radio" name="radio-button" />
+            3 start & above
+          </label>
+          <label>
+            <input type="radio" name="radio-button" />
+            2 start & above
+          </label>
+          <label>
+            <input type="radio" name="radio-button" />
+            1 start & above
+          </label>
+        </div>
+
+        <div class="sort-container">
+          <h3>Sort by</h3>
+          <label>
+            <input type="radio" name="radio-button" />
+            Price : High to Low
+          </label>
+          <label>
+            <input type="radio" name="radio-button" />
+            Price - Low to high
+          </label>
+        </div>
+      </div>
+      <div class="product-list-container">
+        <h2>Available Products</h2>
+        <div class="product-list">
+          <div class="card">
+            <!-- cart media  -->
+            <div class="card-media">
+              <img class="responsive-img" src="https://picsum.photos/200" />
+            </div>
+            <!-- cart content  -->
+            <div class="card-content">
+              <span class="title"> Chrome-book 500 </span>
+              <span class="subtitle"> powered by Google </span>
+              <div class="card-description">
+                <div class="rating">
+                  <span class="material-icons md-18 rated"> star_rate </span>
+                  <span class="material-icons md-18 rated"> star_rate </span>
+                  <span class="material-icons md-18 rated"> star_rate </span>
+                  <span class="material-icons md-18"> star_rate </span>
+                  <span class="material-icons md-18"> star_rate </span>
+                </div>
+                <span>Price : <del>$500</del>   $455 </span>
+              </div>
+            </div>
+            <!-- cart footer-->
+            <div class="card-footer">
+              <button class="btn btn-secondary-outline">
+                <span class="material-icons md-18"> shopping_cart </span>
+                Add to cart
+              </button>
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+            <div class="card-badge danger-bg-color light-text">
+                <span class=""> New </span>
+            </div>
+          </div>
+          <div class="card">
+            <!-- cart media  -->
+            <div class="card-media">
+              <img class="responsive-img" src="https://picsum.photos/200" />
+            </div>
+            <!-- cart content  -->
+            <div class="card-content">
+              <span class="title"> Chrome-book 500 </span>
+              <span class="subtitle"> powered by Google </span>
+              <div class="card-description">
+                <div class="rating">
+                  <span class="material-icons md-18 rated"> star_rate </span>
+                  <span class="material-icons md-18 rated"> star_rate </span>
+                  <span class="material-icons md-18 rated"> star_rate </span>
+                  <span class="material-icons md-18"> star_rate </span>
+                  <span class="material-icons md-18"> star_rate </span>
+                </div>
+                <span>Price : <del>$500</del> $455 </span>
+              </div>
+            </div>
+            <!-- cart footer-->
+            <div class="card-footer">
+              <button class="btn btn-secondary-outline">
+                <span class="material-icons md-18"> shopping_cart </span>
+                Add to cart
+              </button>
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+            <div class="card-badge danger-bg-color light-text">
+                <span class=""> New </span>
+            </div>
+          </div>
+          <div class="card">
+            <!-- cart media  -->
+            <div class="card-media">
+              <img class="responsive-img" src="https://picsum.photos/200" />
+            </div>
+            <!-- cart content  -->
+            <div class="card-content">
+              <span class="title"> Chrome-book 500 </span>
+              <span class="subtitle"> powered by Google </span>
+              <div class="card-description">
+                <div class="rating">
+                  <span class="material-icons md-18 rated"> star_rate </span>
+                  <span class="material-icons md-18 rated"> star_rate </span>
+                  <span class="material-icons md-18 rated"> star_rate </span>
+                  <span class="material-icons md-18"> star_rate </span>
+                  <span class="material-icons md-18"> star_rate </span>
+                </div>
+                <span>Price : <del>$500</del>   $455 </span>
+              </div>
+            </div>
+            <!-- cart footer-->
+            <div class="card-footer">
+              <button class="btn btn-secondary-outline">
+                <span class="material-icons md-18"> shopping_cart </span>
+                Add to cart
+              </button>
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+            <div class="card-dismiss light-bg-color">
+                <span class="material-icons"> favorite_border </span>
+              </div>
+          </div>
+          <div class="card">
+            <!-- cart media  -->
+            <div class="card-media">
+              <img class="responsive-img" src="https://picsum.photos/200" />
+            </div>
+            <!-- cart content  -->
+            <div class="card-content">
+              <span class="title"> Chrome-book 500 </span>
+              <span class="subtitle"> powered by Google </span>
+              <div class="card-description">
+                <div class="rating">
+                  <span class="material-icons md-18 rated"> star_rate </span>
+                  <span class="material-icons md-18 rated"> star_rate </span>
+                  <span class="material-icons md-18 rated"> star_rate </span>
+                  <span class="material-icons md-18"> star_rate </span>
+                  <span class="material-icons md-18"> star_rate </span>
+                </div>
+                <span>Price : <del>$500</del>   $455 </span>
+              </div>
+            </div>
+            <!-- cart footer-->
+            <div class="card-footer">
+              <button class="btn btn-secondary-outline">
+                <span class="material-icons md-18"> shopping_cart </span>
+                Add to cart
+              </button>
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+          <div class="card">
+            <!-- cart media  -->
+            <div class="card-media">
+              <img class="responsive-img" src="https://picsum.photos/200" />
+            </div>
+            <!-- cart content  -->
+            <div class="card-content">
+              <span class="title"> Chrome-book 500 </span>
+              <span class="subtitle"> powered by Google </span>
+              <div class="card-description">
+                <div class="rating">
+                  <span class="material-icons md-18 rated"> star_rate </span>
+                  <span class="material-icons md-18 rated"> star_rate </span>
+                  <span class="material-icons md-18 rated"> star_rate </span>
+                  <span class="material-icons md-18"> star_rate </span>
+                  <span class="material-icons md-18"> star_rate </span>
+                </div>
+                <span>Price : <del>$500</del>   $455 </span>
+              </div>
+            </div>
+            <!-- cart footer-->
+            <div class="card-footer">
+              <button class="btn btn-secondary-outline">
+                <span class="material-icons md-18"> shopping_cart </span>
+                Add to cart
+              </button>
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+          <div class="card">
+            <!-- cart media  -->
+            <div class="card-media">
+              <img class="responsive-img" src="https://picsum.photos/200" />
+            </div>
+            <!-- cart content  -->
+            <div class="card-content">
+              <span class="title"> Chrome-book 500 </span>
+              <span class="subtitle"> powered by Google </span>
+              <div class="card-description">
+                <div class="rating">
+                  <span class="material-icons md-18 rated"> star_rate </span>
+                  <span class="material-icons md-18 rated"> star_rate </span>
+                  <span class="material-icons md-18 rated"> star_rate </span>
+                  <span class="material-icons md-18"> star_rate </span>
+                  <span class="material-icons md-18"> star_rate </span>
+                </div>
+                <span>Price : <del>$500</del>   $455 </span>
+              </div>
+            </div>
+            <!-- cart footer-->
+            <div class="card-footer">
+              <button class="btn btn-secondary-outline">
+                <span class="material-icons md-18"> shopping_cart </span>
+                Add to cart
+              </button>
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+            <div class="overlay-content gray-bg-color">
+              <div class="overlay-text light-text">Out of Stock</div>
+              <button class="btn btn-secondary btn-large">Remind me!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
