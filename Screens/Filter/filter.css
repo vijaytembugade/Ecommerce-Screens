@@ -1,0 +1,60 @@
+.container {
+  /* margin-top: 5rem ; */
+  margin: 5rem 0rem 0rem;
+  display: flex;
+}
+
+.filter-container {
+  background: var(--classic-color);
+  position: sticky;
+  top: 5rem;
+  bottom: 0;
+  flex: 0.2;
+  height: 100%;
+  padding: 1rem 1rem;
+}
+.price-filter .slider {
+  accent-color: var(--primary-color);
+  width: 12rem;
+}
+
+.category-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.rating-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.sort-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.product-list-container {
+  flex: 0.8;
+  padding: 0rem 1rem;
+
+}
+
+.product-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+    align-content:center;
+}
+
+.card{
+    min-width: 17rem;
+}
+
+
+@media (max-width: 768px){
+    .filter-container{
+        display: none;
+    }
+    
+}
