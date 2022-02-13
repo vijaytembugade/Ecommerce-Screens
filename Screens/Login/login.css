@@ -1,0 +1,18 @@
+.login-page-container{
+    margin-top: 5rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.login-img-container{
+    width: 30rem;
+    padding: 2rem;
+}
+
+.login-form-container{
+    padding: 2rem;
+    flex-basis: 30rem;
+}
