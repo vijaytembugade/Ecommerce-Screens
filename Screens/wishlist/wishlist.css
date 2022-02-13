@@ -1,0 +1,13 @@
+.wishlist-container {
+  margin: 5rem 5rem 0rem;
+}
+
+.wishlist-container > h2{
+    text-align: center;
+}
+
+.wishlist-products{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
