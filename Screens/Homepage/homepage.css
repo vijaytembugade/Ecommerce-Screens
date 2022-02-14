@@ -69,6 +69,10 @@
   padding: 2rem;
 }
 
+.brand-logos{
+  width: 30rem;
+}
+
 .brand-logos > div {
   width: 150px;
   transition: all 0.5s;
