@@ -38,26 +38,20 @@
   text-align: center;
 }
 
-.arrivals-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
 
+/* arrivals styles*/
 .arrivals {
   display: flex;
   width: 20rem;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin: 50px;
-  gap: 1rem;
+  gap: 2rem;
   padding: 1rem;
   cursor: pointer;
   transition: all 0.5s;
   box-sizing: border-box;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   background-color: var(--classic-color);
   margin: 1rem;
 }
@@ -68,38 +62,15 @@
 }
 
 
+/* brand on homepage styling */
 
-.best-products {
-  margin: 4rem;
-}
-
-.best-products > .best-product-list {
-  margin: 2rem;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-}
-
-.brands{
-  display: flex;
-  margin: 4rem;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.brands > .featured-brand {
+.featured-brand {
   font-size: 32px;
   padding: 2rem;
 }
-.brands > .brand-logos{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 1rem;
+
+.brand-logos{
+  width: 30rem;
 }
 
 .brand-logos > div {
@@ -122,6 +93,7 @@ footer{
   justify-content: flex-start;
   align-items:center;
   flex-direction: column;
+  margin-top: 3rem;
 }
 
 
