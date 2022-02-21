@@ -31,7 +31,7 @@ Xenon stationary is online platform for notebooks, diaries and notepads.
 ![image](https://user-images.githubusercontent.com/58331578/154967424-6caa6f9e-7548-476f-99f4-81f346a4a524.png)
 
 
-## tech Stack
+## Tech Stack
 HTML and CSS
 
 ## Author
