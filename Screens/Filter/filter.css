@@ -1,5 +1,5 @@
 .plp-container {
-  margin: 5rem 0rem 0rem 0rem;
+  margin: 5rem 0rem 0rem ;
   display: flex;
 }
 
@@ -12,6 +12,7 @@
   height: 100%;
   padding: 1rem 1rem;
 }
+
 .price-filter .slider {
   accent-color: var(--primary-color);
   width: 12rem;
@@ -30,16 +31,11 @@
 }
 
 .product-list {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   justify-content: flex-start;
-  align-content: center;
+  gap: 0;
+
 }
 
-.card {
-  min-width: 17rem;
-}
 
 @media (max-width: 768px) {
   .filter-container {
